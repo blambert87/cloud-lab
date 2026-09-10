@@ -1,0 +1,37 @@
+name: Build Docker App
+
+
+
+on:
+
+  push:
+
+    branches:
+
+      - main
+
+      - develop
+
+      - feature/**
+
+
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+
+
+    steps:
+
+      - name: Checkout Repository
+
+        uses: actions/checkout@v4
+
+
+
+      - name: Build Docker Image
+
+        run: docker build -t cloud-lab-app ./app
