@@ -58,9 +58,9 @@ jobs:
 
           docker build \
 
-          -t ghcr.io/${{ github.repository_owner }}/cloud-lab-app:latest \
+            -t ghcr.io/${{ github.repository_owner }}/cloud-lab-app:latest \
 
-          ./app
+            ./app
 
 
 
@@ -70,4 +70,4 @@ jobs:
 
           docker push \
 
-          ghcr.io/${{ github.repository_owner }}/cloud-lab-app:latest
+            ghcr.io/${{ github.repository_owner }}/cloud-lab-app:latest
