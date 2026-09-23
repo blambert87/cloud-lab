@@ -54,9 +54,7 @@ jobs:
 
       - name: Build Image
 
-        run: docker build -t ghcr.io/${{ github.repository_owner }}/cloud-lab-app:latest \
-
-      ./app
+        run: docker build -t ghcr.io/${{ github.repository_owner }}/cloud-lab-app:latest ./app
 
 
 
