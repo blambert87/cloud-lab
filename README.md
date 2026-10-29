@@ -1,13 +1,43 @@
 # Cloud Lab
+A self-hosted DevOps platform built on Ubuntu, showcasing containerization, Kubernetes, CI/CD, monitoring and GitOps workflows.
 
-My Linux and DevOps learning environment
+## Architecture
+[Cloud Lab Architecture]!(docs/architecture.png)
 
-##
+## Overview
+Cloud Lab includes:
 
-- Linux administration
-- Git and GitHub
 - Docker
 - Kubernetes
-- CI/CD
-- Terraform
-- Monitoring
+- PostgreSQL
+- Traefik
+- GitHub Actions
+- GitOps with ArgoCD
+- Prometheus
+- Grafana
+
+
+## Deployment Flow
+GitHub → GitHub Actions → GHCR → ArgoCD → Kubernetes
+
+## Features
+- Containerized Python application
+- Kubernetes deployments and services
+- PostgreSQL database
+- Automated container builds via GitHub Actions
+- GitOps deployments using ArgoCD
+- Monitoring with Prometheus
+- Visualization with Grafana
+
+## Technologies Used
+- Ubuntu Linux
+- Git & GitHub
+- Docker
+- Kubernetes
+- Traefik
+- PostgreSQL
+- GitHub Actions
+- GHCR
+- ArgoCD
+- Prometheus
+- Grafana
