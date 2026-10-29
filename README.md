@@ -16,7 +16,7 @@ A self-hosted DevOps platform built on Ubuntu, showcasing containerization, Kube
 
 ### GitHub Actions
 
-![GitHub Actions](docs/screenshots/github-actions.png
+![GitHub Actions](docs/screenshots/github-actions.png)
 
 
 
