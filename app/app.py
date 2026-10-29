@@ -7,11 +7,12 @@ app = Flask(__name__)
 
 
 @app.route("/")
-
 def home():
-
     return "Hello from Brandon's DevOps Lab!"
 
+@app.route("/health")
+def health():
+    return {"status": "healthy"}, 200
 
 
 if __name__ == "__main__":
