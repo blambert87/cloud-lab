@@ -4,6 +4,22 @@ A self-hosted DevOps platform built on Ubuntu, showcasing containerization, Kube
 ## Architecture
 ![Cloud Lab Architecture](docs/architecture.png)
 
+## Screenshots
+
+### ArgoCD
+
+![ArgoCD](docs/screenshots/argocd.png)
+
+### Grafana Monitoring
+
+![Grafana Monitoring](docs/screenshots/grafana-cluster.png)
+
+### GitHub Actions
+
+![GitHub Actions](docs/screenshots/github-actions.png
+
+
+
 ## Overview
 Cloud Lab includes:
 
