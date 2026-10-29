@@ -7,7 +7,7 @@ kind: PersistentVolumeClaim
 metadata:
 
   name: postgres-pvc
-
+  namespace: dev
 
 
 spec:

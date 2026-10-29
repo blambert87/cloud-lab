@@ -7,7 +7,7 @@ kind: Service
 metadata:
 
   name: cloud-lab-service
-
+  namespace: dev
 
 
 spec:

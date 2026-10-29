@@ -7,7 +7,7 @@ kind: Deployment
 metadata:
 
   name: postgres
-
+  namespace: dev
 
 
 spec:

@@ -5,7 +5,7 @@ kind: Deployment
 metadata:
 
   name: cloud-lab-app
-
+  namespace: dev
 
 
 spec:
