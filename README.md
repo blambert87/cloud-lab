@@ -2,7 +2,7 @@
 A self-hosted DevOps platform built on Ubuntu, showcasing containerization, Kubernetes, CI/CD, monitoring and GitOps workflows.
 
 ## Architecture
-[Cloud Lab Architecture]!(docs/architecture.png)
+![Cloud Lab Architecture](docs/architecture.png)
 
 ## Overview
 Cloud Lab includes:
